@@ -5,7 +5,7 @@ import time
 import serial
 
 
-ser = serial.Serial("COM4", 9600, timeout = 1) #Change your port name COM... and your baudrate
+ser = serial.Serial("COM4", 9600, timeout = 1) #Change your port name COM... and your baudrate _
 
 def retrieveData():
     ser.write(b'1')
